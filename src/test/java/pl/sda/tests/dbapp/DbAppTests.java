@@ -6,7 +6,7 @@ public class DbAppTests {
 
     private static DbAppMain dbAppMain;
 
-    private int counter = 0;
+    private static int counter = 0;
 
     @BeforeAll
     static void setup() {
@@ -26,8 +26,38 @@ public class DbAppTests {
     }
 
     @Test
-    void testForUserWithId0() {
-        User user = dbAppMain.readUserById(0);
+    void testForId1() {
+        User user = dbAppMain.readUserById(1);
+        System.out.println(user);
+        Assertions.assertNull(user);
+    }
+
+    @Test
+    void testForId2() {
+        User user = dbAppMain.readUserById(2);
+        System.out.println(user);
+        Assertions.assertNull(user);
+    }
+
+    @Test
+    void testForId3() {
+        User user = dbAppMain.readUserById(3);
+        System.out.println(user);
+        Assertions.assertNotNull(user);
+        Assertions.assertEquals(new User(3, "user3"), user);
+    }
+
+    @Test
+    void testForId4() {
+        User user = dbAppMain.readUserById(4);
+        System.out.println(user);
+        Assertions.assertNull(user);
+    }
+
+    @Test
+    void testForId5() {
+        User user = dbAppMain.readUserById(5);
+        System.out.println(user);
         Assertions.assertNull(user);
     }
 

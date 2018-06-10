@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81d7809a-5767-4a36-b31f-ba405f4b0509" name="Default" comment="" />
+    <list default="true" id="81d7809a-5767-4a36-b31f-ba405f4b0509" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/tests/dbapp/DbAppMain.java" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/tests/dbapp/DbAppMain.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/sda/tests/dbapp/DbAppTests.java" afterPath="$PROJECT_DIR$/src/test/java/pl/sda/tests/dbapp/DbAppTests.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,25 +35,25 @@
       <file leaf-file-name="TestDataSource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/tests/dbapp/TestDataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="324">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DbAppTests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DbAppTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/tests/dbapp/DbAppTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="144">
+              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding>
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#800#801#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#1464#1465#0" expanded="true" />
+                <element signature="e#1533#1534#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,16 +72,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DbAppMain.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DbAppMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/tests/dbapp/DbAppMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="518">
+              <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
               <folding>
                 <element signature="e#228#229#0" expanded="true" />
                 <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,9 +150,9 @@
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/tests/QuadEquationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/tests/dbapp/DataSource.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/tests/dbapp/ProductionDataSource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/tests/dbapp/DbAppMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/tests/dbapp/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/tests/dbapp/TestDataSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/tests/dbapp/DbAppMain.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/tests/dbapp/DbAppTests.java" />
       </list>
     </option>
@@ -289,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DbAppTests.testForUserWithId0">
+  <component name="RunManager" selected="JUnit.DbAppTests">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -329,7 +331,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="DbAppTests.testForUserWithId0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DbAppTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="pl.sda.tests.dbapp.*" />
@@ -341,56 +343,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="pl.sda.tests.dbapp" />
       <option name="MAIN_CLASS_NAME" value="pl.sda.tests.dbapp.DbAppTests" />
-      <option name="METHOD_NAME" value="testForUserWithId0" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="EvennessTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="pl.sda.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="tests" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="pl.sda.tests" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.tests.EvennessTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="QuadEquationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="pl.sda.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="tests" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="pl.sda.tests" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.tests.QuadEquationTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -464,18 +416,14 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.EvennessTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.QuadEquationTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.DbAppMain" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DbAppTests.testForUserWithId0" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.DbAppMain" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DbAppTests" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DbAppTests.testForUserWithId0" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DbAppTests" />
         <item index="1" class="java.lang.String" itemvalue="Application.DbAppMain" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.QuadEquationTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.EvennessTest" />
       </list>
     </recent_temporary>
   </component>
@@ -496,20 +444,20 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="DbAppTests - 2018.06.10 at 13h 28m 23s.xml">
+      <configuration name="DbAppTests" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="DbAppTests_testForUserWithId0 - 2018.06.10 at 12h 42m 14s.xml">
       <configuration name="DbAppTests.testForUserWithId0" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DbAppTests_testForUserWithId0 - 2018.06.10 at 12h 42m 37s.xml">
       <configuration name="DbAppTests.testForUserWithId0" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuadEquationTest - 2018.06.10 at 10h 44m 46s.xml">
-      <configuration name="QuadEquationTest" configurationId="JUnit" />
+    <history-entry file="DbAppTests_testForUserWithId0 - 2018.06.10 at 12h 52m 50s.xml">
+      <configuration name="DbAppTests.testForUserWithId0" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuadEquationTest - 2018.06.10 at 10h 46m 10s.xml">
-      <configuration name="QuadEquationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuadEquationTest - 2018.06.10 at 10h 46m 35s.xml">
-      <configuration name="QuadEquationTest" configurationId="JUnit" />
+    <history-entry file="DbAppTests_testForUserWithId0 - 2018.06.10 at 12h 53m 03s.xml">
+      <configuration name="DbAppTests.testForUserWithId0" configurationId="JUnit" />
     </history-entry>
     <history-entry file="QuadEquationTest - 2018.06.10 at 11h 09m 56s.xml">
       <configuration name="QuadEquationTest" configurationId="JUnit" />
@@ -538,7 +486,7 @@
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26822558" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48968363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -598,8 +546,6 @@
           <folding>
             <element signature="e#228#229#0" expanded="true" />
             <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -683,16 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/tests/dbapp/ProductionDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/tests/QuadraticEquation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -712,38 +648,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/tests/dbapp/DbAppTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/tests/dbapp/ProductionDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="342">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/tests/dbapp/DbAppMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/tests/dbapp/TestDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="39" />
+        <state relative-caret-position="324">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/tests/dbapp/DbAppMain.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/tests/dbapp/DbAppTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="e#1533#1534#0" expanded="true" />
           </folding>
         </state>
       </provider>

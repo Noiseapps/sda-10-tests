@@ -26,6 +26,8 @@ public class DbAppMain {
     }
 
     public User readUserById(int id) {
-        return dataSource.getUserById(id);
+        User user = dataSource.getUserById(id);
+        // warunki
+        return user;
     }
 }
